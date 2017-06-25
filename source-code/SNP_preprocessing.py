@@ -9,10 +9,10 @@ Pre-processing of VCF file to extract SNP data with only ID, POS, REF and ALT st
 import vcf
 import csv
 
-with open('.vcf', 'r') as vcffile:
+with open('.vcf', 'r') as vcffile: #add the VCF filename here
 	vcf_reader = vcf.Reader(vcffile)
 	with open('SNP_filter.csv', 'w') as csvfile:
-		fieldnames = ['ID', 'POS', 'REF', 'ALT']
+		fieldnames = ['ID', 'POS', 'REF', 'ALT']#there's no visualization done in this program
 		csvWriter = csv.DictWriter(csvfile, fieldnames=fieldnames)
 		csvWriter.writeheader()
 		for record in vcf_reader:
