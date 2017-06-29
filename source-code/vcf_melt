@@ -1,0 +1,56 @@
+#!/Users/xuy962/anaconda/envs/py35/bin/python
+""" Melt a VCF file into a tab delimited set of calls, one per line
+
+VCF files have all the calls from different samples on one line.  This
+script reads vcf on stdin and writes all calls to stdout in tab delimited
+format with one call in one sample per line.  This makes it easy to find
+a given sample's genotype with, say, grep.
+"""
+
+# import sys
+import csv
+import vcf
+
+inp = open('../source-data/may24_17_af2_m20_ordered.vcf')
+
+# if len(sys.argv) > 1:
+#     inp = open('../source-data/may24_17_af2_m20_ordered.vcf')
+# else:
+#     inp = sys.stdin
+reader = vcf.VCFReader(inp)
+
+formats = reader.formats.keys()
+infos = reader.infos.keys()
+
+# header = ['SAMPLE'] + formats + ['FILTER', 'CHROM', 'POS', 'REF', 'ALT', 'ID'] + ['info.' + x for x in infos]
+header = ['SAMPLE']
+header += formats
+header += ['FILTER', 'CHROM', 'POS', 'REF', 'ALT', 'ID']
+header += ['info.' + x for x in infos]
+
+outfile = open('../source-data/vcf_melt.csv', 'w')
+out = csv.writer(outfile)
+out.writerow(header)
+
+
+def flatten(x):
+    if type(x) == type([]):
+        x = ','.join(map(str, x))
+    return x
+
+for record in reader:
+    info_row = [flatten(record.INFO.get(x, None)) for x in infos]
+    fixed = [record.CHROM, record.POS, record.REF, record.ALT, record.ID]
+
+    for sample in record.samples:
+        row = [sample.sample]
+        # Format fields not present will simply end up "blank"
+        # in the output
+        row += [flatten(getattr(sample.data, x, None)) for x in formats]
+        row += [record.FILTER or '.']
+        row += fixed
+        row += info_row
+        out.writerow(row)
+
+inp.close()
+outfile.close()
