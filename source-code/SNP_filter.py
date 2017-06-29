@@ -2,7 +2,11 @@
 There are two steps:
 1. filter out records that are indels, meanwhile, count appearance for each sample whose 'GT' field is not empty
 2. calculate for each SNP record's MAF and filter out the record whose MAF , 0.01
-3. samples
+3. SNP records with MAF < 0.01 or are indels will be removed
+4. samples with misssing rate > 10% will be removed
+
+Package PyVCF should be installed prior to running this program
+Make sure your python interpreter includes that package
 '''
 
 import vcf
@@ -99,6 +103,7 @@ def calc_maf(record):
 
 def main():
     vcffile = open('../source-data/may24_17_af2_m20_ordered.vcf')
+    #make sure you have your vcf file prepared or you may modify the path of ypur file here
     vcf_reader = vcf.Reader(vcffile)
     dict_samples = {}
     samples = vcf_reader.samples
@@ -120,7 +125,6 @@ def main():
             cref = record.REF
             calt = record.ALT
             cid = record.ID
-            #TODO: figure out how to properly keep samples
             for sample in record.samples:
                 if not sample.called:
                     continue
