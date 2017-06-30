@@ -104,11 +104,11 @@ def calc_maf(record):
 def main():
     vcffile = open('../source-data/may24_17_af2_m20_ordered.vcf')
     #make sure you have your vcf file prepared or you may modify the path of ypur file here
-    vcf_reader = vcf.Reader(vcffile)
+    vcf_reader = vcf.Reader(vcffile, strict_whitespace=True)
     dict_samples = {}
     samples = vcf_reader.samples
     for sample in samples:
-        sample_name = sample
+        sample_name = '-'.join(sample.split())
         dict_samples[sample_name] = {}
         dict_samples[sample_name]['count'] = 0
         # dict_samples[sample_name]['CHROM'] = {}
@@ -120,7 +120,7 @@ def main():
             valid_snps_count += 1
             lst_alleles = [record.REF]
             lst_alleles += [record.ALT]
-            chrom = 'chr_' + str(record.CHROM)
+            chrom = str(record.CHROM)
             cpos = record.POS
             cref = record.REF
             calt = record.ALT
@@ -128,7 +128,7 @@ def main():
             for sample in record.samples:
                 if not sample.called:
                     continue
-                sample_name = sample.sample
+                sample_name = '-'.join(sample.sample.split())
                 dict_samples[sample_name]['count'] += 1
                 dict_samples[sample_name][chrom] = {}
                 dict_samples[sample_name][chrom]['name'] = chrom
