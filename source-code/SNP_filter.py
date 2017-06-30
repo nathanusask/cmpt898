@@ -108,7 +108,7 @@ def main():
     dict_samples = {}
     samples = vcf_reader.samples
     for sample in samples:
-        sample_name = '-'.join(sample.split())
+        sample_name = sample
         dict_samples[sample_name] = {}
         dict_samples[sample_name]['count'] = 0
         # dict_samples[sample_name]['CHROM'] = {}
@@ -128,7 +128,7 @@ def main():
             for sample in record.samples:
                 if not sample.called:
                     continue
-                sample_name = '-'.join(sample.sample.split())
+                sample_name = sample.sample
                 dict_samples[sample_name]['count'] += 1
                 dict_samples[sample_name][chrom] = {}
                 dict_samples[sample_name][chrom]['name'] = chrom
