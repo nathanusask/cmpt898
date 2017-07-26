@@ -1,0 +1,107 @@
+source("https://bioconductor.org/bioclite.R")
+source("http://bioconductor.org/bioclite.R")
+source("https://bioconductor.org/biocLite.R")
+biocLite("GWASTools")
+browseVignettes("GWASTools")
+library(GWASTools)
+library(SNPRelate)
+biocLite("gdsfmt")
+biocLite("SNPRelate")
+library(SNPRelate)
+vcffile <- system.file("extdata", "!/Documents/cmpt898/source-data/may24_17_af2_m20_ordered.vcf", package="SNPRelate")
+vcffile <- system.file("extdata", "~/Documents/cmpt898/source-data/may24_17_af2_m20_ordered.vcf", package="SNPRelate")
+gdsfile <- "snps.gds"
+snpgdsVCF2GDS(vcffile, gdsfile, verbose=TRUE)
+vcffile
+vcffile.name
+snpgdsVCF2GDS(vcffile, gdsfile, verbose=FLASE)
+snpgdsVCF2GDS(vcffile, gdsfile, verbose=FALSE)
+gdsfile <- "~/Documents/cmpt898/source-data/snps.gds"
+snpgdsVCF2GDS(vcffile, gdsfile, verbose=FALSE)
+gds <- GdsGenotypeReader(gdsfile)
+exit
+quit
+close
+close()
+myMat <- matrix(1:28, ncol = 7)
+myMat
+myMat[myMat[,4] %% 2 == 0, 4]
+testcase <- 1:10
+str(testcase)
+testcase
+str(myMat)
+the.mat = myMat
+the.mat
+library(foreign)
+dbBorn2010 <- read_excel("~/Downlaods/dbBorn2010.xlsx")
+dfBorn2010 <- system.file("~/Downloads/dfBorn2010.xlsx")
+dfBorn2010 <- system.file("~/Downloads/dfBorn2010.xlsx", package = "readxl")
+born_data <- read_excel(dfBorn2010)
+born_data <- read.excel(dfBorn2010)
+install.packages("readxl")
+born_data <- read_excel(dfBorn2010)
+package(readxl)
+library(readxl)
+born_data <- read_excel(dfBorn2010)
+born_data <- read_excel("~/Downloads/dfBorn2010.xlsx")
+library(sp)
+install.packages("sp")
+library(sp)
+library(Matrix)
+library(INLA)
+install.packages(INLA)
+install.packages("INLA")
+install.packages("INLA", repos="https://inla.r-inla-download.org/R/stable")
+update.packages("INLA")
+library("INLA")
+formula = inla.surv(age_child, status) ~ sex
+model = inla(formula, family="coxph", data=data_born, verbose=TRUE, control.hazard=list(model="rw1", n.intervals=20))
+model = inla(formula, family="coxph", data=born_data, verbose=TRUE, control.hazard=list(model="rw1", n.intervals=20))
+formula = inla.surv(age_child, status) ~ sexmodel = inla(formula,family="coxph", data= dfBorn2010, verbose=TRUE,             control.hazard=list(model="rw1", n.intervals=20))
+model = inla(formula,family="coxph", data= born_data, verbose=TRUE,#
++              control.hazard=list(model="rw1", n.intervals=20))
+brew reinstall R
+library(foreign)
+library(sp)#
+library(Matrix)#
+library(INLA)
+upgradeR()
+updateR()
+library(installr)
+install.packages("installr")
+born_data <- read_excel("~/Downloads/dfBorn2010.xlsx")
+library(readxl)
+born_data <- read_excel("~/Downloads/dfBorn2010.xlsx")
+formula = inla.surv(age_child, status) ~ sex#
+model = inla(formula, family="coxph", data=data_born, verbose=TRUE, control.hazard=list(model="rw1", n.intervals=20))
+formula = inla.surv(age_child, status) ~ sex#
+model = inla(formula, family="coxph", data=born_data, verbose=TRUE, control.hazard=list(model="rw1", n.intervals=20))
+license()
+version()
+source("qqmanHJCupdated.R")
+install.package("qqmanHJCupdated.R")
+install.packages("qqmanHJCupdated.R")
+setwd("~/Documents/cmpt898")
+download.file("https://raw.github.com/stephenturner/qqman/master/qqman.r", destfile="./qqman.r", method="curl")
+source("./qqman.r")
+res <- read.table("./source-data/fastlmm_all_w_cov")
+res[1:]
+res[1::]
+res[1]
+res <- read.table("./source-data/fastlmm_all_w_cov", hearder=T)
+res <- read.table("./source-data/fastlmm_all_w_cov", header=T)
+head(res)
+manhattan(res, pch=20, suggestiveline=F, genomewideline=F, ymin=2, cex.x.axis=0.65, colors=c("black", "dodgerblue"), cex=0.5)
+download.file("https://www.staff.ncl.ac.uk/heather.cordell/qqmanHJCupdated.R", destfile="./qqmanHJCupdated.R", method="curl")
+source("./qqmanHJCupdated.R")
+manhattan(res, pch=20, suggestiveline=F, genomewideline=F, ymin=2, cex.x.axis=0.65, colors=c("black", "dodgerblue"), cex=0.5)
+head(res, 1)
+dir(res)
+colnames(res)[3] <- "CHR"
+head(res, 1)
+colnames(res)[5] <- "BP"
+colnames(res)[6] <- "P"
+head(res, 1)
+manhattan(res, pch=20, suggestiveline=F, genomewideline=F, ymin=2, cex.x.axis=0.65, colors=c("black", "dodgerblue"), cex=0.5)
+qq(res$P)
+qq(res$P)

@@ -1,0 +1,62 @@
+#!/Users/xuy962/anaconda/bin/python
+
+'''
+This script is to transform the .xlxs file that contains lentil phenotypes into tab-delimited file format
+'''
+
+from openpyxl import load_workbook
+from statistics import median
+
+wb = load_workbook('../source-data/pheno-data/170621-Nepal-Emergence.xlsx')
+ws = wb['Emergence Nepal']
+
+dict_name_dte = {}
+for row in ws.rows:
+    str_fid = str(row[1].value)
+    str_name = str(row[2].value)
+    str_iid = str(row[3].value)
+    val_pheno = row[5].value
+    if str_name == 'Name':
+        # dict_name_dte[str_name] = row[5].value
+        continue
+    if str_fid not in dict_name_dte.keys():
+        str_name = '-'.join(str_name.split())
+        dict_name_dte[str_fid] = {}
+        dict_name_dte[str_fid]['name'] = str_name
+    dict_name_dte[str_fid][str_iid] = val_pheno
+
+wb.close()
+
+# filename_phe = '../source-data/pheno-data/Nepal_DTE_pheno.phe'
+# filename_phe = '../source-data/pheno-data/Nepal_DTE.phe'
+filename_phe = '../source-data/pheno-data/Nepal_DTE_fid_iid_sample_pheno.phe'
+
+file_phe = open(filename_phe, 'w')
+filename_phe_complete = '../source-data/pheno-data/Nepal_DTE_complete.txt'
+file_phe_comp = open(filename_phe_complete, 'w')
+lst_keys = []
+file_phe.write('FID\tIID\tPheno\n')
+file_phe_comp.write('FID\tName\n')
+for key in dict_name_dte.keys(): #fid
+    if key not in lst_keys:
+        lst_keys.append(key)
+        file_phe_comp.write(key + '\t' + dict_name_dte[key]['name'] + '\n')
+    # if type(dict_name_dte[key]) == type(lst):
+    for sub_key in dict_name_dte[key].keys(): #iid
+        if sub_key.isdigit():
+            # file_phe.write(key + '\t' + sub_key + '\t' + str(dict_name_dte[key][sub_key]) + '\n')
+            # file_phe.write(dict_name_dte[key]['name'] + '\t' + sub_key + '\t' + str(dict_name_dte[key][sub_key]) + '\n')
+            file_phe.write( dict_name_dte[key]['name'] + '\t' + dict_name_dte[key]['name'] + '\t' + str(dict_name_dte[key][sub_key]) + '\n')
+
+
+    # else:
+    #     file.write(key + '\t' + dict_name_dte[key] + '\n')
+
+file_phe.close()
+file_phe_comp.close()
+
+print(filename_phe + ' is successfully stored!')
+print(filename_phe_complete + ' is successfully stored!')
+
+
+
