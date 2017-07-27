@@ -1,0 +1,91 @@
+Here are the results generated from PLINK of conducting GWAS on two different phenotypes, i.e., days to emergence (DTE) and growing degree days (GDD).
+
+The following table tells the top significant SNPs in DTE with quantitative data:
+      CHR SNP        BP NMISS    BETA     SE       R2      T         P
+9785    4   . 163844531  4282  0.7983 0.1473 0.006817  5.420 6.290e-08
+2266    1   . 291984120  4417  0.9569 0.1827 0.006173  5.237 1.711e-07
+1207    1   . 192789217  4462  0.9287 0.1839 0.005688  5.051 4.571e-07
+10803   4   . 243535564  4207  0.6334 0.1257 0.006004  5.040 4.860e-07
+10804   4   . 243535565  4207  0.6334 0.1257 0.006004  5.040 4.860e-07
+2265    1   . 291941752  4387  0.8953 0.1779 0.005745  5.034 5.002e-07
+
+The following table tells the top significant SNPs in GDD with quantitative data:
+      CHR SNP        BP NMISS   BETA    SE       R2     T         P
+9785    4   . 163844531  4282  8.597 1.748 0.005621 4.919 9.042e-07
+2266    1   . 291984120  4417 10.300 2.170 0.005075 4.746 2.143e-06
+1207    1   . 192789217  4462 10.000 2.183 0.004681 4.580 4.775e-06
+2265    1   . 291941752  4387  9.622 2.113 0.004707 4.554 5.409e-06
+10803   4   . 243535564  4207  6.637 1.493 0.004677 4.445 9.001e-06
+10804   4   . 243535565  4207  6.637 1.493 0.004677 4.445 9.001e-06
+
+Although a little different from each other's p-value, the perfect overlap indicates those 6 SNPs played significant roles in both lentil's DTE and GDD.
+
+The following shows top significant SNPs in DTE based case/control studies. Notably, the median DTE is 19 so samples with DTE less than 19 are grouped as cases (affected) while those with DTE larger than or equal to 19 grouped as controls (unaffected).
+The table below tells top significant SNPs within regular chromosomes:
+> head(assoc_dte_res_sort[assoc_dte_res_sort$CHR<8,])
+      CHR SNP        BP A1    F_A    F_U A2 CHISQ         P    OR
+886     1   . 130505078  T 0.4709 0.3852  C 63.52 1.585e-15 1.420
+887     1   . 130505103  C 0.4709 0.3852  T 63.52 1.585e-15 1.420
+888     1   . 130505132  T 0.4709 0.3852  C 63.52 1.585e-15 1.420
+16759   7   . 165628331  C 0.3657 0.2869  T 60.22 8.464e-15 1.433
+14598   6   . 148586244  T 0.3954 0.3185  G 57.41 3.547e-14 1.400
+11110   5   .  16655279  G 0.4747 0.3937  A 56.01 7.228e-14 1.392
+
+The table below tells top dignificant SNPs within either scaffolds (Chromosome 15) or contigs (Chromosomes 8~14)
+> head(assoc_dte_res_sort[assoc_dte_res_sort$CHR>7,])
+      CHR SNP    BP A1    F_A    F_U A2 CHISQ         P    OR
+17934   9   . 32517  T 0.4627 0.3818  A 58.99 1.581e-14 1.394
+20330  15   . 49292  A 0.4921 0.4103  G 57.77 2.939e-14 1.392
+19024  15   . 10051  A 0.4909 0.4129  G 51.50 7.170e-13 1.371
+18904  15   .  8780  A 0.4177 0.3420  G 50.85 9.961e-13 1.380
+18004  11   .  4349  T 0.4943 0.4198  C 48.80 2.839e-12 1.351
+19795  15   . 26043  G 0.3778 0.3057  A 48.62 3.113e-12 1.379
+
+The following shows top significant SNPs in GDD based case/control studies. Notably, the median GDD is 191.4025 so samples with GDD less than 191.4025 are grouped as cases (affected) while those with DTE larger than or equal to 191.4025 grouped as controls (unaffected).
+The table below tells top significant SNPs within regular chromosomes:
+> head(assoc_gdd_res_sort[assoc_gdd_res_sort$CHR<8,])
+      CHR SNP        BP A1    F_A    F_U A2 CHISQ         P    OR
+886     1   . 130505078  T 0.4702 0.3873  C 59.38 1.299e-14 1.404
+887     1   . 130505103  C 0.4702 0.3873  T 59.38 1.299e-14 1.404
+888     1   . 130505132  T 0.4702 0.3873  C 59.38 1.299e-14 1.404
+16759   7   . 165628331  C 0.3657 0.2881  T 58.45 2.081e-14 1.425
+8997    4   .  71465726  T 0.4738 0.3955  G 53.74 2.293e-13 1.376
+10785   4   . 242435083  G 0.5103 0.4320  T 53.38 2.742e-13 1.370
+
+The table below tells top dignificant SNPs within either scaffolds (Chromosome 15) or contigs (Chromosomes 8~14)
+> head(assoc_gdd_res_sort[assoc_gdd_res_sort$CHR>7,])
+      CHR SNP    BP A1    F_A    F_U A2 CHISQ         P    OR
+17934   9   . 32517  T 0.4618 0.3839  A 54.61 1.468e-13 1.377
+20330  15   . 49292  A 0.4905 0.4130  G 51.79 6.164e-13 1.368
+19024  15   . 10051  A 0.4912 0.4138  G 50.65 1.103e-12 1.368
+18004  11   .  4349  T 0.4947 0.4205  C 48.20 3.839e-12 1.349
+18904  15   .  8780  A 0.4171 0.3438  G 47.62 5.183e-12 1.366
+18551  15   .  3628  T 0.3876 0.3185  C 46.26 1.037e-11 1.355
+
+Again from what is observed from the tables, certain SNPs play significant roles in both traits and further investigation will be performed on those SNPs.
+
+However, for association studies of one trait, the results are not consistent between each other, i.e., the top significant SNPs from the quantitative study differ from the top SNPs from the case/control study.
+
+Stats of SNPs on each chromosome:
+   Var1 Freq
+     1 2776
+     2 3258
+     3 2297
+     4 2490
+     5 2418
+     6 2240
+     7 2220
+     8  141
+     9  132
+    10   20
+    11  171
+    12  141
+    13   77
+    14   12
+    15 2418
+
+In this study, both PLINK and Python FaST-LMM were applied to do the association studies and the results are as follows:
+Python FaST-LMM returns zero significant SNPs, if cutoff p-value is set to 1e-5, yet the observed p-values follow its expected pattern.
+On the other hand, while PLINK returns quite a number of significant SNPs, the observed p-values seem to be diverged from their expected counterparts. 
+
+ 
