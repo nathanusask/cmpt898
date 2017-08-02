@@ -1,0 +1,61 @@
+Tables from Keith:
+
+Feature & Start Date & End Date & Source \\
+\hline
+GDD & 06/05/16 & 12/05/16 & Environment Canada \\
+\hline
+GDD & 12/05/16 & 03/06/16 & Ibutton Hygrochron \\
+\hline
+Precipitation & 06/05/16 & 03/06/16 & Environment Canada \\
+\hline
+Daylength & 06/05/16 & 03/06/16 & Daylength Sensor \\
+\hline
+\caption{2016 Rosthern}
+
+
+Feature & Start Date & End Date & Source \\
+\hline
+GDD & 27/04/16 & 29/04/16 & Environment Canada \\
+\hline
+GDD & 29/04/16 & 03/06/16 & Ibutton Hygrochron \\
+\hline
+Precipitation & 27/04/16 & 03/06/16 & Environment Canada \\
+\hline
+Daylength & 27/04/16 & 03/06/16 & Daylength Sensor (details unknown) \\
+\hline
+\caption{2016 Sutherland}
+
+
+Feature & Start Date & End Date & Source \\
+\hline
+GDD & 19/05/17 & 31/05/17 & Datalogger (unkown brand) \\
+\hline
+Precipitation & 19/05/17 & 31/05/17 & Environment Canada \\
+\hline
+Daylength & 19/05/17 & 31/05/17 & National Research Council Canada \\
+\hline
+\caption{2017 Rosthern}
+
+
+Feature & Start Date & End Date & Source \\
+\hline
+GDD & 04/05/17 & 19/05/17 & Environment Canada \\
+\hline
+GDD & 19/05/17 & 23/05/17 & Datalogger (unknown brand)\\
+\hline
+Precipitation & 04/05/17 & 23/05/17 & Environment Canada \\
+\hline
+Daylength & 04/05/17 & 23/05/17 & National Research Council Canada \\
+\hline
+\caption{2017 Sutherland}
+
+
+Item & Start Date & End Date & Source \\
+\hline
+GDD & 14/11/16 & 21/12/16 & Government of Nepal Meteorology Dept \\
+\hline
+Precipitation & 14/11/16 & 21/12/16 & Government of Nepal Meteorology Dept \\
+\hline
+Daylength & 14/11/16 & 21/14/16 & Government of Nepal Meteorology Dept \\
+\hline
+\caption{2016 Nepal}

@@ -31,7 +31,7 @@ The table below tells top significant SNPs within regular chromosomes:
 14598   6   . 148586244  T 0.3954 0.3185  G 57.41 3.547e-14 1.400
 11110   5   .  16655279  G 0.4747 0.3937  A 56.01 7.228e-14 1.392
 
-The table below tells top dignificant SNPs within either scaffolds (Chromosome 15) or contigs (Chromosomes 8~14)
+The table below tells top significant SNPs within either scaffolds (Chromosome 15) or contigs (Chromosomes 8~14)
 > head(assoc_dte_res_sort[assoc_dte_res_sort$CHR>7,])
       CHR SNP    BP A1    F_A    F_U A2 CHISQ         P    OR
 17934   9   . 32517  T 0.4627 0.3818  A 58.99 1.581e-14 1.394
