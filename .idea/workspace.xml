@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="881ac030-84ea-45de-9e0c-7c856b2d7e49" name="Default" comment="pheno-data added">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FaST-LMM_DTE_ncov.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FaST-LMM_GDD_ncov.png" />
@@ -29,6 +30,67 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source-data/GWAS_FaST_LMM_GDD" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source-data/GWAS_FaST_LMM_GDD_ncov" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+    <list default="true" id="881ac030-84ea-45de-9e0c-7c856b2d7e49" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/DT-accuracy.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/DT-accuracy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/DT-resid-pred.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/DT-resid-pred.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/DT-resid-scatter.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/DT-resid-scatter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/Lasso-accuracy.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/Lasso-accuracy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/Lasso-res-pred.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/Lasso-res-pred.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/Lasso-res-scatter.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/Lasso-res-scatter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/RF-accuracy.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/RF-accuracy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/RF-resid-pred.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/RF-resid-pred.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/RF-resid-scatter.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/RF-resid-scatter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/Ridge-accuracy.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/Ridge-accuracy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/Ridge-res-pred.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/Ridge-res-pred.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/Ridge-res-scatter.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/Ridge-res-scatter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/boxplot.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/boxplot.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/decision_tree.pdf" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2016/decision_tree.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/DT-accuracy.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/DT-accuracy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/DT-resid-pred.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/DT-resid-pred.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/DT-resid-scatter.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/DT-resid-scatter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/Lasso-accuracy.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/Lasso-accuracy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/Lasso-res-pred.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/Lasso-res-pred.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/Lasso-res-scatter.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/Lasso-res-scatter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/RF-accuracy.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/RF-accuracy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/RF-resid-pred.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/RF-resid-pred.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/RF-resid-scatter.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/RF-resid-scatter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/Ridge-accuracy.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/Ridge-accuracy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/Ridge-res-pred.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/Ridge-res-pred.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/Ridge-res-scatter.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/Ridge-res-scatter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/boxplot.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/boxplot.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/decision_tree.pdf" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Rosthern2017/decision_tree.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/DT-accuracy.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/DT-accuracy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/DT-resid-pred.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/DT-resid-pred.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/DT-resid-scatter.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/DT-resid-scatter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/Lasso-accuracy.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/Lasso-accuracy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/Lasso-res-pred.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/Lasso-res-pred.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/Lasso-res-scatter.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/Lasso-res-scatter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/RF-accuracy.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/RF-accuracy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/RF-resid-pred.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/RF-resid-pred.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/RF-resid-scatter.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/RF-resid-scatter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/Ridge-accuracy.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/Ridge-accuracy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/Ridge-res-pred.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/Ridge-res-pred.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/Ridge-res-scatter.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/Ridge-res-scatter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/boxplot.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/boxplot.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/decision_tree.pdf" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2016/decision_tree.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/DT-accuracy.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/DT-accuracy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/DT-resid-pred.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/DT-resid-pred.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/DT-resid-scatter.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/DT-resid-scatter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/Lasso-accuracy.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/Lasso-accuracy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/Lasso-res-pred.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/Lasso-res-pred.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/Lasso-res-scatter.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/Lasso-res-scatter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/RF-accuracy.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/RF-accuracy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/RF-resid-pred.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/RF-resid-pred.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/RF-resid-scatter.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/RF-resid-scatter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/Ridge-accuracy.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/Ridge-accuracy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/Ridge-res-pred.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/Ridge-res-pred.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/Ridge-res-scatter.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/Ridge-res-scatter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/boxplot.png" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/boxplot.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/decision_tree.pdf" afterPath="$PROJECT_DIR$/machine_learning/results/RegressionGraphs/Sutherland2017/decision_tree.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machine_learning/code/regressions.py" afterPath="$PROJECT_DIR$/machine_learning/code/regressions.py" />
+>>>>>>> Stashed changes
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +103,11 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="898Project" />
+  </component>
   <component name="FileEditorManager">
+<<<<<<< Updated upstream
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ex_pyxl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source-code/ex_pyxl">
@@ -50,12 +116,23 @@
               <caret line="31" column="77" lean-forward="true" selection-start-line="31" selection-start-column="77" selection-end-line="31" selection-end-column="77" />
               <folding>
                 <element signature="e#152#186#0" expanded="true" />
+=======
+    <leaf>
+      <file leaf-file-name="regressions.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/machine_learning/code/regressions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+>>>>>>> Stashed changes
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+<<<<<<< Updated upstream
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,6 +146,8 @@
       <find>CN</find>
       <find>CN-105866	2016Nepal1</find>
     </findStrings>
+=======
+>>>>>>> Stashed changes
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -82,6 +161,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/source-code/SNP_preprocessing.py" />
         <option value="$PROJECT_DIR$/source-code/vcf_melt" />
         <option value="$PROJECT_DIR$/source-code/script_refine_sample_id.py" />
@@ -108,16 +188,35 @@
         <option value="$PROJECT_DIR$/source-code/pheno_aggregation_binary.py" />
         <option value="$PROJECT_DIR$/source-code/fastlmm_gdd.py" />
         <option value="$PROJECT_DIR$/source-code/fastlmm_dte.py" />
+=======
+        <option value="$PROJECT_DIR$/machine_learning/code/regressions.py" />
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< Updated upstream
     <option name="x" value="42" />
     <option name="y" value="82" />
     <option name="width" value="1465" />
     <option name="height" value="1370" />
+=======
+    <option name="x" value="46" />
+    <option name="y" value="23" />
+    <option name="width" value="1394" />
+    <option name="height" value="873" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+>>>>>>> Stashed changes
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -138,28 +237,55 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cmpt898" />
+              <option name="myItemId" value="898Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="898Project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cmpt898" />
+              <option name="myItemId" value="898Project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cmpt898" />
+              <option name="myItemId" value="898Project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cmpt898" />
+              <option name="myItemId" value="898Project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="source-data" />
+              <option name="myItemId" value="machine_learning" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< Updated upstream
+=======
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="898Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="898Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="machine_learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+>>>>>>> Stashed changes
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -167,7 +293,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< Updated upstream
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/source-data/KnowPulse" />
@@ -188,12 +316,17 @@
   </component>
   <component name="RunManager" selected="Python.merge_fid_iid_sample">
     <configuration default="false" name="SNP_filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="RunManager" selected="Python.regressions">
+    <configuration default="false" name="regressions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> Stashed changes
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< Updated upstream
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source-code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -275,6 +408,27 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/machine_learning/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="898Project" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/machine_learning/code/regressions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+>>>>>>> Stashed changes
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -427,6 +581,14 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.regressions" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.regressions" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -464,6 +626,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< Updated upstream
     <frame x="42" y="82" width="1465" height="1370" extended-state="0" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23754266" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -477,14 +640,41 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33025986" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="46" y="23" width="1394" height="873" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964131" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5028694" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.49713057" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> Stashed changes
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+<<<<<<< Updated upstream
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942164" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> Stashed changes
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -508,6 +698,7 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/source-code/SNP_preprocessing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
@@ -678,6 +869,21 @@
         <state relative-caret-position="240">
           <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
           <folding />
+=======
+    <entry file="file://$USER_HOME$/Documents/cmpt898/source-code/SNP_preprocessing.py" />
+    <entry file="file://$PROJECT_DIR$/machine_learning/code/Ridge-accuracy.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine_learning/code/regressions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>

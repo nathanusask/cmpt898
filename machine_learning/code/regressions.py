@@ -25,8 +25,8 @@ minmax_scale_data = True
 #
 # Data Manipulation
 #
-pop_struct = pd.read_csv('pop_structure.csv')
-datafile = pd.read_csv('Sutherland2017.csv')
+pop_struct = pd.read_csv('../data/pop_structure.csv')
+datafile = pd.read_csv('../data/all_data.csv')
 
 min_max = MinMaxScaler(feature_range=(0,1))
 scale = StandardScaler(copy=True, with_mean=True, with_std=True)
@@ -40,8 +40,6 @@ pred = joined[['Precipitation','Day Length','Seedwt','Temperate','South Asia','M
 
 predict = joined['GDD']
 pred_cols = pd.concat([pred, dummy_locations, dummy_years], axis=1)
-
-
 pred_col_names = pred_cols.columns.tolist()
 
 X_tr,  X_te, y_train, y_test = model_selection.train_test_split(pred_cols, predict, test_size=0.30)
@@ -63,17 +61,24 @@ else:
 #
 # plot the distribution of all the input variables
 #
+plt.rcParams.update({'font.size': 14})
 X_train[X_train.dtypes[(X_train.dtypes == "float64") | (X_train.dtypes == "int64")]
     .index.values].hist(figsize=[11, 11])
+plt.savefig('feature-dist.png')
 #plt.show()
+plt.clf()
 
+
+plt.rcParams.update({'font.size': 18})
 y_train.hist()
 plt.title('Distribution of GDD (predicted variable) in training set')
 plt.xlabel('GDD')
 plt.ylabel('Frequency')
+plt.savefig('gdd-dist.png')
 ##plt.show()
+plt.clf()
 
-
+plt.rcParams.update({'font.size': 12})
 residual_df = pd.DataFrame()
 
 #
@@ -105,7 +110,7 @@ for index, model in enumerate(models):
     plt.ylabel('Residual')
     plt.savefig('{:s}-res-scatter.png'.format(model_names[index]))
     ##plt.show()
-
+    plt.clf()
 
     plt.scatter(y_test, mod_pred)
     plt.plot(np.arange(8, 500), np.arange(8, 500), c="r", label=score)
@@ -116,7 +121,7 @@ for index, model in enumerate(models):
     plt.title(title)
     plt.savefig('{:s}-accuracy.png'.format(model_names[index]))
     #plt.show()
-
+    plt.clf()
 
     plt.scatter(mod_pred, residuals)
     plt.title('{:s} Regression Residuals Against Predicted'.format(model_names[index]))
@@ -124,8 +129,7 @@ for index, model in enumerate(models):
     plt.ylabel('Residuals')
     plt.savefig('{:s}-res-pred.png'.format(model_names[index]))
     #plt.show()
-
-
+    plt.clf()
 
 #
 # Random Forest Regression
@@ -164,6 +168,8 @@ plt.xlabel('Seedwt (Predictor)')
 plt.ylabel('Residual')
 plt.savefig('RF-resid-scatter.png')
 #plt.show()
+plt.clf()
+
 
 
 plt.scatter(y_test, rf_final.predict(X_test))
@@ -174,6 +180,7 @@ plt.xlabel('Actual GDD')
 plt.ylabel('Predicted GDD')
 plt.savefig('RF-accuracy.png')
 #plt.show()
+plt.clf()
 
 
 plt.scatter(rf_pred, residuals)
@@ -182,6 +189,7 @@ plt.xlabel('Predictions')
 plt.ylabel('Residuals')
 plt.savefig('RF-resid-pred.png')
 #plt.show()
+plt.clf()
 
 
 # decision tree
@@ -210,6 +218,7 @@ plt.xlabel('Seedwt (Predictor)')
 plt.ylabel('Residual')
 plt.savefig('DT-resid-scatter.png')
 #plt.show()
+plt.clf()
 
 plt.scatter(y_test, dtree.predict(X_test))
 plt.plot(np.arange(8, 500), np.arange(8, 500), c="r", label=scores)
@@ -219,6 +228,7 @@ plt.xlabel('Actual GDD')
 plt.ylabel('Predicted GDD')
 plt.savefig('DT-accuracy.png')
 #plt.show()
+plt.clf()
 
 plt.scatter(dt_pred, residuals)
 plt.title('Decision Tree Regression Residuals Against Predicted')
@@ -226,6 +236,7 @@ plt.xlabel('Predictions')
 plt.ylabel('Residuals')
 plt.savefig('DT-resid-pred.png')
 #plt.show()
+plt.clf()
 
 #boxplot of residuals of models used
 ax = residual_df.boxplot()
@@ -234,4 +245,5 @@ plt.xlabel('Type of Regression')
 plt.ylabel('Residual')
 plt.savefig('boxplot.png')
 #plt.show()
+plt.clf()
 
