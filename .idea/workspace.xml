@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="881ac030-84ea-45de-9e0c-7c856b2d7e49" name="Default" comment="">
+    <list default="true" id="881ac030-84ea-45de-9e0c-7c856b2d7e49" name="Default" comment="pheno-data added">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FaST-LMM_DTE_ncov.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FaST-LMM_GDD_ncov.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FaST_LMM_DTE.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FaST_LMM_GDD.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqplot_fastlmm.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.Rapp.history" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SNP_lt1e-3_DTE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SNP_lt1e-3_GDD.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lr_dte_gwas_res_add_sorted" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lr_dte_gwas_res_dl_sorted" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lr_dte_gwas_res_loc_sorted" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lr_dte_gwas_res_pcp_sorted" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lr_dte_gwas_res_sw_sorted" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lr_dte_gwas_res_yr_sorted" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lr_gdd_gwas_res_add_sorted" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lr_gdd_gwas_res_dl_sorted" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lr_gdd_gwas_res_loc_sorted" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lr_gdd_gwas_res_pcp_sorted" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lr_gdd_gwas_res_sw_sorted" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lr_gdd_gwas_res_yr_sorted" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source-code/ex_pyxl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source-data/.Rapp.history" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source-data/GWAS_FaST_LMM_DTE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source-data/GWAS_FaST_LMM_DTE_ncov" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source-data/GWAS_FaST_LMM_GDD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source-data/GWAS_FaST_LMM_GDD_ncov" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +46,8 @@
       <file leaf-file-name="ex_pyxl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source-code/ex_pyxl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" column="31" lean-forward="false" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+            <state relative-caret-position="465">
+              <caret line="31" column="77" lean-forward="true" selection-start-line="31" selection-start-column="77" selection-end-line="31" selection-end-column="77" />
               <folding>
                 <element signature="e#152#186#0" expanded="true" />
               </folding>
@@ -86,8 +112,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="73" />
-    <option name="y" value="42" />
+    <option name="x" value="42" />
+    <option name="y" value="82" />
     <option name="width" value="1465" />
     <option name="height" value="1370" />
   </component>
@@ -434,21 +460,13 @@
       <option name="project" value="LOCAL" />
       <updated>1500388297802</updated>
     </task>
-    <task id="LOCAL-00004" summary="pheno-data added">
-      <created>1501102991669</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1501102991669</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="73" y="42" width="1465" height="1370" extended-state="0" />
-    <editor active="true" />
+    <frame x="42" y="82" width="1465" height="1370" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23754266" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23754266" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32774517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -699,8 +717,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source-code/ex_pyxl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="31" lean-forward="false" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+        <state relative-caret-position="465">
+          <caret line="31" column="77" lean-forward="true" selection-start-line="31" selection-start-column="77" selection-end-line="31" selection-end-column="77" />
           <folding>
             <element signature="e#152#186#0" expanded="true" />
           </folding>
